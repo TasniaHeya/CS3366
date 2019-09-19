@@ -1,11 +1,11 @@
 # Report 
 
 ### Links
-[Presentation page](https://tasniaheya.github.io/CS3366/) (https://tasniaheya.github.io/CS3366/)
+[Presentation page](https://tasniaheya.github.io/hw1.71.ashrafi_heya/) (https://tasniaheya.github.io/hw1.71.ashrafi_heya/)
 
-[GitHub repository](https://github.com/tasniaheya/CS3366/) (https://github.com/tasniaheya/CS3366/)
+[GitHub repository](https://github.com/tasniaheya/hw1.71.ashrafi_heya/) (https://github.com/tasniaheya/hw1.71.ashrafi_heya/)
 
-[Demo](https://tasniaheya.github.io/CS3366/demo.html) (https://tasniaheya.github.io/CS3366/demo.html)
+[Demo](https://tasniaheya.github.io/hw1.71.ashrafi_heya/demo.html) (https://tasniaheya.github.io/hw1.71.ashrafi_heya/demo.html)
 
 [Video](https://www.youtube.com/embed/zNnTnfFN9p0) (https://www.youtube.com/embed/zNnTnfFN9p0)
 
