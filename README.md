@@ -21,7 +21,7 @@
 
 - Animation Example:
 
-![animation](hw1_TasniaAshrafiHeya.gif)
+![animation](hw1.71.ashrafi_heya.gif)
 
 #### Issues:
 - In this interface, basement is indicated with G where basement generally is indicated with B which is convenient for any user to understand.
