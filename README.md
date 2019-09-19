@@ -1,13 +1,13 @@
 # Report 
 
 ### Links
-[Presentation page](https://tasniaheya.github.io/CS3366/) ( https://tasniaheya.github.io/CS3366/)
+[Presentation page](https://tasniaheya.github.io/CS3366/) (https://tasniaheya.github.io/CS3366/)
 
-[GitHub repository](https://github.com/tasniaheya/CS3366/) ( https://github.com/tasniaheya/CS3366/)
+[GitHub repository](https://github.com/tasniaheya/CS3366/) (https://github.com/tasniaheya/CS3366/)
 
-[Demo](https://tasniaheya.github.io/CS3366/demo.html) ( https://tasniaheya.github.io/CS3366/demo.html)
+[Demo](https://tasniaheya.github.io/CS3366/demo.html) (https://tasniaheya.github.io/CS3366/demo.html)
 
-[Video](https://www.youtube.com/embed/zNnTnfFN9p0) ( https://www.youtube.com/embed/zNnTnfFN9p0 )
+[Video](https://www.youtube.com/embed/zNnTnfFN9p0) (https://www.youtube.com/embed/zNnTnfFN9p0)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNnTnfFN9p0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
