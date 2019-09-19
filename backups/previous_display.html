@@ -1,0 +1,260 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Tasnia Ashrafi Heya">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Elevator Interface</title>
+
+    <!-- main JS libs -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Style CSS -->
+    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet">
+    <link href="css/style.css" media="screen" rel="stylesheet">
+    <!--[if lt IE 9]><script src="js/respond.min.js"></script><![endif]-->
+    <!--[if gte IE 9]>
+<style type="text/css">
+    .gradient, .nicEdit-container {filter: none !important;}
+</style>
+<![endif]-->
+</head>
+
+<body>
+    <div class="container elevator-screen-background">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card box-shadow elevator-button">
+                    <a href="button-open-door" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">Open Door</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card box-shadow elevator-button">
+                    <a href="button-close-door" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">Close Door</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card box-shadow elevator-button">
+                    <a href="button-floor-info" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">Floor Information</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-0" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">0</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-1" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">1</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-2" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">2</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-3" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">3</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-4" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">4</h2>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="col-sm-4">
+
+                <div class="card  text-center shadow-lg rounded" style="margin-top: 12px;">
+
+                    <div class="card-header text-muted">
+                        <h5>Current Floor</h5>
+                    </div>
+
+                    <div class="card-body">
+
+
+                        <div id="vertical-center">
+                            <div id="display-1" class="display-container display-size-12 display-no-0">
+                                <div class="segment-x segment-a"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-b"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-c"><span class="segment-border"></span></div>
+                                <div class="segment-x segment-d"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-e"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-f"><span class="segment-border"></span></div>
+                                <div class="segment-x segment-g"><span class="segment-border"></span></div>
+                            </div>
+                            <div id="display-2" class="display-container display-size-12 display-no-1">
+                                <div class="segment-x segment-a"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-b"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-c"><span class="segment-border"></span></div>
+                                <div class="segment-x segment-d"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-e"><span class="segment-border"></span></div>
+                                <div class="segment-y segment-f"><span class="segment-border"></span></div>
+                                <div class="segment-x segment-g"><span class="segment-border"></span></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="card  text-center shadow-lg rounded" style="margin-top: 2vh;">
+
+                    <div class="card-header text-muted">
+                        <h5>Floor Input</h5>
+                    </div>
+
+                    <div class="card-body" style="margin-top: 8px; margin-bottom: 8px; margin-left: 10px; margin-right: 10px;">
+
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control form-control-lg input-box" type="text" placeholder=""  >
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-2">
+
+                <div class="card  text-center shadow-lg rounded queue-height" style="margin-top: 1vh;">
+
+                    <div class="card-header text-muted">
+                        <h5>Queue</h5>
+                    </div>
+
+                    <div class="card-body">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-3">
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-5" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">5</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-6" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">6</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-7" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">7</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-8" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">8</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card box-shadow elevator-button">
+                    <a href="button-9" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">9</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card box-shadow elevator-button">
+                    <a href="button-enter" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">Enter</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card box-shadow">
+                    <a href="button-clear-input" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner">Clear Input</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card box-shadow elevator-button">
+                    <a href="button-emergency" class="btn btn-fix ">
+                        <div class="card-block elevator-one-seventh-height center" id="outer">
+                            <h2 id="inner" style="color: red">Emergency</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/style.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Tasnia Ashrafi Heya">
+    <meta name="keywords" content="Elevator">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
+    <title>Elevator Interface</title>
+
+    <!-- main JS libs -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Style CSS -->
+    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet">
+    <link href="css/style.css" media="screen" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: url(asd.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+
+        /* The device with borders */
+        .tablet {
+            position: relative;
+            width: 1270px;
+            height: 800px;
+            margin: auto;
+            border: 16px black solid;
+            /* border-top-width: 60px;
+            border-bottom-width: 60px; */
+            border-radius: 20px;
+        }
+
+        /* The horizontal line on the top of the device */
+        .tablet:before {
+            /* content: '';
+            display: block;
+            width: 60px;
+            height: 5px;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 10px; */
+        }
+
+        /* The circle on the bottom of the device */
+        .tablet:after {
+            /* content: '';
+            display: block;
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            left: 50%;
+            bottom: -65px;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 50%; */
+        }
+
+        /* The screen (or content) of the device */
+        .tablet .content {
+            width: 1240px;
+            height: 770px;
+            background: white;
+            margin: -1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row" style="margin-top: 24px;">
+        <div class="col-sm-1">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="speaker.png" class="speaker">
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-right">
+                    <h2 class="brail-text-color">⠼⠚</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-right">
+                    <h2 class="brail-text-color">⠼⠁</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-right">
+                    <h2 class="brail-text-color">⠼⠃</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-right">
+                    <h2 class="brail-text-color">⠼⠉</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-right">
+                    <h2 class="brail-text-color">⠼⠙</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-10">
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1 class="text-center brail-text-color">⠠⠕⠏⠑⠝ ⠠⠙⠕⠕⠗</h1>
+
+                </div>
+                <div class="col-sm-4">
+                    <h1 class="text-center brail-text-color">⠠⠉⠇⠕⠎⠑ ⠠⠙⠕⠕⠗</h1>
+                </div>
+                <div class="col-sm-4">
+                    <h1 class="text-center brail-text-color">⠠⠊⠝⠋⠕⠗⠍⠁⠞⠊⠕⠝</h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="tablet">
+                        <div class="content">
+                            <iframe src="display.html" style="width:100%;border:none;height:100%" scrolling="no">
+                            </iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1 class="text-center brail-text-color">⠠⠑⠝⠞⠑⠗</h1>
+
+                </div>
+                <div class="col-sm-4">
+                    <h1 class="text-center brail-text-color">⠠⠉⠇⠑⠁⠗ ⠠⠊⠝⠏⠥⠞</h1>
+                </div>
+                <div class="col-sm-4">
+                    <h1 class="text-center brail-text-color">⠠⠑⠍⠑⠗⠛⠑⠝⠉⠽</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-1">
+
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-left">
+                    <h2 class="brail-text-color"></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-left">
+                    <h2 class="brail-text-color"></h2>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-left">
+                    <h2 class="brail-text-color">⠼⠚</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-left">
+                    <h2 class="brail-text-color">⠼⠁</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-left">
+                    <h2 class="brail-text-color">⠼⠃</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-left">
+                    <h2 class="brail-text-color">⠼⠉</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 elevator-one-seventh-height-x text-left">
+                    <h2 class="brail-text-color">⠼⠙</h2>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
